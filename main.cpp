@@ -5,3 +5,7 @@ int main()
 	std::cout << "Hello, World!" << std::endl;
 	return 0;
 }
+
+void subFunction(int& a, int& b) {
+	a += b;
+}
